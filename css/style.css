@@ -1,0 +1,107 @@
+
+/* globals */
+*{
+    text-decoration: none;
+    color: white;
+}
+
+img{
+    max-width: 100%;
+}
+
+body{
+    background-image: url(../img/background.jpg);
+    background-position: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+p{
+    font-size: 1.8rem;
+    margin: .5rem;
+}
+
+h2{
+    font-size: 3rem;
+    margin: .5rem;
+}
+
+h3{
+    font-size: 2.5rem;
+    margin: .5rem;
+}
+
+input{
+    font-size: 1.2rem;
+    margin: .5rem;
+}
+
+/* containers */
+.container-1{
+    background-color: rgba(0, 0, 0, 0.421);
+    border-radius: 2rem;
+    padding: 5%;
+    margin: 2rem auto;
+    width: 50%;
+}
+
+/* header */
+.logo-1{
+    width: 30%;
+    margin: 0 auto;
+}
+
+.subtittle-1{
+    color: rgb(27, 232, 0);
+    text-align: center;
+    margin-top: 0;
+    font-weight: 600;
+}
+
+.container-buttons-1{
+    background-color:rgb(27, 232, 0);
+    text-align: center;
+    padding: .8rem;
+}
+
+.container-buttons-1 input{
+    color: black;
+}
+
+/* product */
+.product{
+    margin-top: 2rem;
+}
+
+.product h3::before{
+    content: ' ';
+    display: inline-block;
+    background-color: white;
+    width: 10px;
+    height: 10px;
+    margin-right: 5px;
+}
+
+.charge-medium{
+    display: block;
+    width: 35%;
+    height: 3rem;
+    background-color: yellow;
+    border-radius: .5rem;
+}
+
+.charge-hight{
+    display: block;
+    width: 60%;
+    height: 3rem;
+    background-color: rgb(27, 232, 0);
+    border-radius: .5rem;
+}
+
+.charge-low{
+    display: block;
+    width: 15%;
+    height: 3rem;
+    background-color: red;
+    border-radius: .5rem;
+}
